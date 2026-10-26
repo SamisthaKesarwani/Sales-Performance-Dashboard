@@ -1,12 +1,23 @@
 # 📊 Sales Performance & Revenue Dashboard
 
-An interactive business intelligence dashboard built with Power BI analyzing 10,000+ rows of Superstore sales data.
+An interactive business intelligence dashboard built with Power BI analyzing ~10,000 rows of Superstore sales data.
+
+![Dashboard](dashboard.png)
 
 ---
 
 ## 📌 About The Project
 
 This dashboard provides a comprehensive view of sales performance across regions, categories, and time periods. It enables business stakeholders to identify trends, compare regional performance, and track profitability at a glance.
+
+---
+
+## 🔍 Key Insights
+
+- **Technology brings in the most sales** (836K, 36.4%), followed by Furniture (742K, 32.3%) and Office Supplies (719K, 31.3%).
+- **West is the strongest region and South the weakest** in total sales.
+- **Sales are seasonal:** they climb from September and peak around November, while February is the lowest month.
+- **Copiers are the most profitable sub-category**, followed by Phones and Accessories.
 
 ---
 
@@ -27,7 +38,7 @@ This dashboard provides a comprehensive view of sales performance across regions
 - DAX (Data Analysis Expressions)
 - Power Query
 - Microsoft Excel
-- Superstore Sales Dataset (10,000+ rows)
+- Superstore Sales Dataset (~10,000 rows)
 
 ---
 
@@ -45,8 +56,10 @@ This dashboard provides a comprehensive view of sales performance across regions
 
 | File | Description |
 |------|-------------|
-| `Sales-Dashboard.pbix` | Power BI dashboard file |
-| `Sample - Superstore.csv` | Source dataset |
+| [`Sales-Dashboard.pbix`](Sales-Dashboard.pbix) | Power BI dashboard file (open with Power BI Desktop) |
+| [`Sales-Dashboard.pdf`](Sales-Dashboard.pdf) | PDF export of the dashboard |
+| [`dashboard.png`](dashboard.png) | Dashboard screenshot |
+| [`Sample - Superstore.csv`](Sample%20-%20Superstore.csv) | Source dataset |
 
 ---
 
